@@ -1,0 +1,231 @@
+{
+    "components":["Motherboard", "CPU", "ram", "rom", "gpu", "monitor", "mouse", "keyboard"],
+    "Motherboard": [
+        {
+            "src": "../img/moth1.jpg",
+            "name": "mama",
+            "socket": 1342,
+            "memoryslot": "DDR2",
+            "price": 200
+        },
+        {
+            "src": "../img/moth2.jpg",
+            "name": "mama1",
+            "socket": 500,
+            "memoryslot": "DDR3",
+            "price": 200
+        },
+        {
+            "src": "../img/moth3.jpg",
+            "name": "mama2",
+            "socket": 500,
+            "memoryslot": "DDR4",
+            "price": 212
+        },
+        {
+            "src": "../img/moth4.jpg",
+            "name": "mama3",
+            "socket": 500,
+            "memoryslot": "DDR4",
+            "price": 311
+        }
+    ],
+    "CPU": [
+        {
+            "src": "../img/cpu1.jpg",
+            "name": "procesor",
+            "socket": 23345,
+            "frequence": 500,
+            "price": 200
+        },
+        {
+            "src": "../img/cpu2.jpg",
+            "name": "procesor1",
+            "socket": 500,
+            "frequence": 500,
+            "price": 140
+        },
+        {
+            "src": "../img/cpu3.jpg",
+            "name": "procesor2",
+            "socket": 5000,
+            "frequence": 500,
+            "price": 13234
+        },
+        {
+            "src": "../img/cpu4.jpg",
+            "name": "procesor3",
+            "socket": 500,
+            "frequence": 500,
+            "price": 4363
+        }
+    ],
+    "ram": [
+        {
+            "src": "../img/ram1.jpg",
+            "name": "ram",
+            "type": "DDR2",
+            "capacity": 500,
+            "frequence": 1902,
+            "price": 500
+        },
+        {
+            "src": "../img/ram2.jpg",
+            "name": "ram1",
+            "type": "DDR3",
+            "capacity": 500,
+            "frequence": 1902,
+            "price": 500
+        },
+        {
+            "src": "../img/ram3.jpg",
+            "name": "ram2",
+            "type": "DDR4",
+            "capacity": 500,
+            "frequence": 1902,
+            "price": 500
+        },
+        {
+            "src": "../img/ram4.jpg",
+            "name": "ram3",
+            "type": "DDR4",
+            "capacity": 500,
+            "frequence": 1902,
+            "price": 500
+        }
+    ],
+    "rom": [
+        {
+            "src": "../img/rom2.jpg",
+            "name": "rom",
+            "speed": 5400,
+            "capacity": 500,
+            "price": 344
+        },
+        {
+            "src": "../img/rom1.jpg",
+            "name": "rom1",
+            "speed": 500,
+            "capacity": 500,
+            "price": 344
+        },
+        {
+            "src": "../img/rom2.jpg",
+            "name": "rom2",
+            "speed": 500,
+            "capacity": 500,
+            "price": 344
+        },
+        {
+            "src": "../img/rom1.jpg",
+            "name": "rom3",
+            "speed": 500,
+            "capacity": 500,
+            "price": 344
+        }
+    ],
+    "gpu": [
+        {
+            "src": "../img/gpu1.jpg",
+            "name": "gpu",
+            "memory": 2,
+            "frequence": "1300 MHz",
+            "price": 1902
+        },
+        {
+            "src": "../img/gpu1.jpg",
+            "name": "gpu1",
+            "memory": 1,
+            "frequence": "300 MHz",
+            "price": 1902
+        },
+        {
+            "src": "../img/gpu1.jpg",
+            "name": "gpu2",
+            "memory": 4,
+            "frequence": "5300 MHz",
+            "price": 1902
+        },
+        {
+            "src": "../img/gpu1.jpg",
+            "name": "gpu3",
+            "memory": 6,
+            "frequence": "1100 MHz",
+            "price": 1902
+        }
+    ],
+    "monitor": [
+        {
+            "src": "../img/mon3.jpg",
+            "name": "ASus",
+            "inches": 21,
+            "price": 1902
+        },
+        {
+            "src": "../img/mon2.jpg",
+            "name": "Philips",
+            "inches": 23,
+            "price": 1902
+        },
+        {
+            "src": "../img/mon4.jpg",
+            "name": "monik2",
+            "inches": 21.5,
+            "price": 1902
+        },
+        {
+            "src": "../img/mon3.jpg",
+            "name": "monik3",
+            "inches": 23.8,
+            "price": 1902
+        }
+    ],
+    "mouse": [
+        {
+            "src": "../img/mouse1.jpg",
+            "name": "miska",
+            "price": 23
+        },
+        {
+            "src": "../img/mouse2.jpg",
+            "name": "miska1",
+            "price": 23
+        },
+        {
+            "src": "../img/mouse1.jpg",
+            "name": "miska2",
+            "price": 23
+        },
+        {
+            "src": "../img/mouse2.jpg",
+            "name": "miska3",
+            "price": 23
+        }
+    ],
+    "keyboard": [
+        {
+            "src": "../img/keyboard1.jpg",
+            "name": "klava",
+            "type": "mechanic",
+            "price": 23
+        },
+        {
+            "src": "../img/keyboard2.jpg",
+            "name": "klava1",
+            "type": "membran",
+            "price": 23
+        },
+        {
+            "src": "../img/keyboard1.jpg",
+            "name": "klava2",
+            "type": "membran",
+            "price": 23
+        },
+        {
+            "src": "../img/keyboard2.jpg",
+            "name": "klava3",
+            "type": "mechanic",
+            "price": 23
+        }
+    ]
+}
