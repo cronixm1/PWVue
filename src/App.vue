@@ -1,30 +1,41 @@
 <template>
-  <div id="app">
-    <Menu/>
-    <Selects/>
-    <div id="draw" class="container row m-auto mt-4">
-      <drawComponents ></drawComponents>    
-    </div>
-    <div  class="val"></div>
-  </div>
+	<div id="app">
+		<Menu/>
+		<checkFilter/>
+		<Selects/>
+		<div id="draw" class="container row m-auto mt-4">
+		</div>
+		<div  class="val"></div>
+		<drawBasket/>
+		<router-view></router-view>
+	</div>
 </template>
 
 <script>
 import Menu from './components/Menu.vue'
 import Selects from './components/Selects.vue'
-import drawComponents from './components/drawComponents.vue'
+import drawBasket from '@/components/drawBasket.vue'
+import checkFilter from '@/components/checkFilter.vue'
+
 
 export default {
-  name: 'app',
-  components: {
-   Menu,
-   Selects,
-  drawComponents
-  }
+	name: 'app',
+	components: {
+	Menu,
+	Selects,
+	drawBasket,
+	checkFilter
+	}
 }
 </script>
 
 <style>
+.custom-select{
+	margin: 20px
+}
+.card{
+	margin: 20px
+}
 html{
     background: gray;
 }
@@ -43,4 +54,3 @@ html{
 }
 
 </style>
-/*v-for="drawCard in drawComp" :draw="drawCard"*/
