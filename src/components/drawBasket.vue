@@ -20,10 +20,9 @@
             </tr>
           </tbody>
         </table>
-            <!--  <div>
-                <b-table striped hover :items="basket" :fields="fields" > </b-table>
-            </div> -->
-            <h4> Total Price: {{TotalPrice}}</h4>
+            <h4> Total Price: {{totalPrice * promoСod}} $</h4>
+          <b-form-input id="input-live" class="mt-2" type="text" v-model="promo" aria-describedby="input-live-help input-live-feedback" placeholder="Input your promocode" trim>
+          </b-form-input>
         </b-modal>
         <b-modal ref="orderModal" id="modal-2" hide-footer title="Order Confirmation">
             <div>
@@ -38,23 +37,43 @@
 
 import logSystem from '@/components/logSystem.vue'
 
-export default {
+  var price = 1 ;
+  export default {
   name: 'drawBasket',
    components: {
      logSystem
    },
     data() {
       return {
+        promo: ''
          // fields: ['type', 'name', 'quantity' ,'price'],
       }
     },
     computed: {
-    basket(){
-      return this.$store.getters.getBasket
-    },
-    TotalPrice(){
-      return this.$store.getters.getTotalPrice
-    }
+      basket(){
+        return this.$store.getters.getBasket
+      },
+      promoСod(){
+          switch (this.promo) {
+              case 'compucter' : 
+                price = 0.9
+                return price
+                break;
+              case 'cronixm1' : 
+                price = 0.8
+                return price
+                break;
+              case 'peroxiddehidrogen' : 
+                price = 0.2
+                return price
+                break;
+              default : price = 1
+                return price
+          }
+      },
+      totalPrice(){
+        return this.$store.getters.getTotalPrice
+      }
   },
   methods:{
     delet(i){

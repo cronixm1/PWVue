@@ -13,7 +13,7 @@
 
         </b-form-input>
     
-        <b-form-input id="input-live" type="number" v-model="raspuns" class="d-none" :state="allRight" aria-describedby="input-live-help input-live-feedback" placeholder="corect or no" trim>
+        <b-form-input id="input-live" type="number" v-model="answer" class="d-none" :state="allRight" aria-describedby="input-live-help input-live-feedback" placeholder="corect or no" trim>
     
         </b-form-input>
     
@@ -73,6 +73,7 @@ export default {
                 tempStorage.push([this.name, this.tel, this.email, val])
                 localStorage.setItem('orders', JSON.stringify(tempStorage))
             }
+
         }
     },
     data() {
@@ -80,7 +81,7 @@ export default {
             name: '',
             tel: '',
             email: '',
-            raspuns: ''
+            answer: ''
         }
     }
 }

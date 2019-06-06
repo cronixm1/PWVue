@@ -23,7 +23,6 @@ const store = new Vuex.Store({
       } else {
         state.basket.push({ type: type, name: product.name, quantity: 1, price: product.price });
         localStorage.setItem('key',JSON.stringify(state.basket));
-
       }
     },
     setMemory (state, memorySlot) {

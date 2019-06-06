@@ -3,229 +3,229 @@
     "Motherboard": [
         {
             "src": "assets/moth1.jpg",
-            "name": "mama",
-            "socket": 1342,
-            "memoryslot": "DDR2",
-            "price": 200
-        },
-        {
-            "src": "assets/moth2.jpg",
-            "name": "mama1",
-            "socket": 500,
+            "name":"asus z97k",
+            "socket":1150,
             "memoryslot": "DDR3",
             "price": 200
         },
         {
+            "src": "assets/moth2.jpg",
+            "name":"GA-H81M-S1",
+            "socket":1150,
+            "memoryslot": "DDR3",
+            "price":125
+        },
+        {
             "src": "assets/moth3.jpg",
-            "name": "mama2",
-            "socket": 500,
+            "name":"Asus Prime H310M-K",
+            "socket":1151,
             "memoryslot": "DDR4",
-            "price": 212
+            "price":70
         },
         {
             "src": "assets/moth4.jpg",
-            "name": "mama3",
-            "socket": 500,
+            "name":"Asus ROG Strix",
+            "socket":1151,
             "memoryslot": "DDR4",
-            "price": 311
+            "price": 220
         }
     ],
     "CPU": [
         {
             "src": "assets/cpu1.jpg",
-            "name": "Intel Core i5",
-            "socket": 23345,
-            "frequence": 500,
-            "price": 200
+            "name":"i5 4690k",
+            "socket":1150,
+            "frequence":"3.5GHz",
+            "price": 250
         },
         {
             "src": "assets/cpu2.jpg",
-            "name": "Intel Core i7",
-            "socket": 500,
-            "frequence": 500,
-            "price": 140
+            "name":"i7 4770k",
+            "socket":1150,
+            "frequence":"4GHz",
+            "price": 350
         },
         {
             "src": "assets/cpu3.jpg",
-            "name": "Intel Core i5 8th Gen",
-            "socket": 5000,
-            "frequence": 500,
-            "price": 13234
+            "name":"i5 8600k",
+            "socket":1151,
+            "frequence":"4.3Ghz",
+            "price": 258
         },
         {
             "src": "assets/cpu4.jpg",
-            "name": "Intel Core i3 8th Gen",
-            "socket": 500,
-            "frequence": 500,
-            "price": 4363
+            "name":"i3 8100",
+            "socket":1151,
+            "frequence":"3.6Ghz",
+            "price": 117
         }
     ],
     "ram": [
         {
             "src": "assets/ram1.jpg",
-            "name": "ram",
-            "memoryslot": "DDR2",
-            "capacity": 500,
-            "frequence": 1902,
+            "name":"Kingston HyperX",
+            "memoryslot": "DDR3",
+            "capacity":8,
+            "frequence":1866,
             "price": 500
         },
         {
             "src": "assets/ram2.jpg",
-            "name": "ram1",
+            "name":"Hynix Original",
             "memoryslot": "DDR3",
-            "capacity": 500,
-            "frequence": 1902,
-            "price": 500
+            "capacity":4,
+            "frequence":1600,
+            "price": 50
         },
         {
             "src": "assets/ram3.jpg",
-            "name": "ram2",
+            "name":"Kingston HyperX FURY",
             "memoryslot": "DDR4",
-            "capacity": 500,
-            "frequence": 1902,
-            "price": 500
+            "capacity":8,
+            "frequence":2400,
+            "price": 100
         },
         {
             "src": "assets/ram4.jpg",
-            "name": "ram3",
+            "name":"Corsair Vengeance LPX Red",
             "memoryslot": "DDR4",
-            "capacity": 500,
-            "frequence": 1902,
-            "price": 500
+            "capacity":16,
+            "frequence":2133,
+            "price": 120
         }
     ],
     "rom": [
         {
             "src": "assets/rom2.jpg",
-            "name": "rom",
-            "speed": 5400,
-            "capacity": 500,
-            "price": 344
+            "name":"Western Digital WD10",
+            "speed":"7200rpm",
+            "capacity":"1000gb",
+            "price": 120
         },
         {
             "src": "assets/rom1.jpg",
-            "name": "rom1",
-            "speed": 500,
-            "capacity": 500,
-            "price": 344
+            "name":"Samsung 860 PRO",
+            "speed":"560/530MB/s",
+            "capacity":"512gb",
+            "price": 330
         },
         {
             "src": "assets/rom2.jpg",
-            "name": "rom2",
-            "speed": 500,
-            "capacity": 500,
+            "name":"Samsung 860 PRO",
+            "speed":"560/530MB/s",
+            "capacity":"512gb",
             "price": 344
         },
         {
             "src": "assets/rom1.jpg",
-            "name": "rom3",
-            "speed": 500,
-            "capacity": 500,
-            "price": 344
+            "name":"Western Digital WD10",
+            "speed":"7200rpm",
+            "capacity":"1000gb",
+            "price": 120
         }
     ],
     "gpu": [
         {
             "src": "assets/gpu1.jpg",
-            "name": "gpu",
-            "memory": 2,
-            "frequence": "1300 MHz",
-            "price": 1902
+            "name":"gtx 1060",
+            "memory":"6GB",
+            "frequence":"100Ghz",
+            "price": 300
         },
         {
             "src": "assets/gpu1.jpg",
-            "name": "gpu1",
-            "memory": 1,
-            "frequence": "300 MHz",
-            "price": 1902
+            "name":"gtx 1070",
+            "memory":"8GB",
+            "frequence":"200Ghz",
+            "price":400
         },
         {
             "src": "assets/gpu1.jpg",
-            "name": "gpu2",
-            "memory": 4,
-            "frequence": "5300 MHz",
-            "price": 1902
+            "name":"gtx 1070",
+            "memory":"8GB",
+            "frequence":"200Ghz",
+            "price":400
         },
         {
             "src": "assets/gpu1.jpg",
-            "name": "gpu3",
-            "memory": 6,
-            "frequence": "1100 MHz",
-            "price": 1902
+            "name":"gtx 1060",
+            "memory":"6GB",
+            "frequence":"100Ghz",
+            "price": 300
         }
     ],
     "monitor": [
         {
             "src": "assets/mon3.jpg",
-            "name": "ASus",
-            "inches": 21,
-            "price": 1902
+            "name":"ACER IPS LED SA220QBID",
+            "inches": "21.5",
+            "price": 400
         },
         {
             "src": "assets/mon2.jpg",
-            "name": "Philips",
-            "inches": 23,
-            "price": 1902
+            "name": "AOC LED e970Swn",
+            "inches": "18.5",
+            "price": 160
         },
         {
             "src": "assets/mon4.jpg",
-            "name": "monik2",
-            "inches": 21.5,
-            "price": 1902
+            "name":"ACER IPS LED SA220QBID",
+            "inches": "21.5",
+            "price": 400
         },
         {
             "src": "assets/mon3.jpg",
-            "name": "monik3",
-            "inches": 23.8,
-            "price": 1902
+            "name": "AOC LED e970Swn",
+            "inches": "18.5",
+            "price": 160
         }
     ],
     "mouse": [
         {
             "src": "assets/mouse1.jpg",
-            "name": "miska",
-            "price": 23
+            "name":"LOGITECH G305",
+            "price": 50
         },
         {
             "src": "assets/mouse2.jpg",
-            "name": "miska1",
-            "price": 23
+            "name":"HyperX Pulsefire",
+            "price": 70
         },
         {
             "src": "assets/mouse1.jpg",
-            "name": "miska2",
-            "price": 23
+            "name":"HyperX Pulsefire",
+            "price": 50
         },
         {
             "src": "assets/mouse2.jpg",
-            "name": "miska3",
-            "price": 23
+            "name":"LOGITECH G305",
+            "price": 50
         }
     ],
     "keyboard": [
         {
             "src": "assets/keyboard1.jpg",
-            "name": "klava",
-            "type": "mechanic",
-            "price": 23
+            "name":"LOGITECH G512",
+            "type":"mechanics",
+            "price": 90
         },
         {
             "src": "assets/keyboard2.jpg",
-            "name": "klava1",
-            "type": "membran",
-            "price": 23
+            "name":"HyperX Alloy FPS PRO",
+            "type":"mechanics",
+            "price": 120
         },
         {
             "src": "assets/keyboard1.jpg",
-            "name": "klava2",
-            "type": "membran",
-            "price": 23
+            "name":"LOGITECH G512",
+            "type":"mechanics",
+            "price": 90
         },
         {
             "src": "assets/keyboard2.jpg",
-            "name": "klava3",
-            "type": "mechanic",
-            "price": 23
+            "name":"HyperX Alloy FPS PRO",
+            "type":"mechanics",
+            "price": 120
         }
     ]
 }
